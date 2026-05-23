@@ -224,7 +224,7 @@ export default function App() {
   const currentLocalPlayer = room?.players.find(p => p.id === socket.id);
 
   return (
-    <div className="min-h-screen bg-[#020205] text-slate-100 flex flex-col font-sans selection:bg-cyan-500/35 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-b from-[#e0f9ff] via-[#e2f6fc] to-[#bae6fd] text-slate-100 flex flex-col font-sans selection:bg-cyan-500/35 relative overflow-hidden">
       {/* Dynamic Cyber star grids on background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.04),transparent_55%)] pointer-events-none"></div>
 
