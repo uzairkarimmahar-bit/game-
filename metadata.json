@@ -1,0 +1,6 @@
+{
+  "name": "Type Racer Nitro",
+  "description": "Real-time multiplayer typing race game where speed and accuracy power your car on a neon track.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
